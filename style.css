@@ -1,0 +1,24 @@
+*{}
+body{max-width:100%;height:auto;width:100vw;}
+main{display:flex;height: 50vh;width: 100vw;align-items;center;justify-content:center;flex-direction:column;}
+section{width: 30vh;height: 30vh;margin: auto;border-radius: 50%;position: relative;}
+.circle{border-radius:50%;height: 30vh;width: 30vh;background-color:#C3E0E5;margin:auto;position:relative;display:flex;align-self:center;border: 15px #274472 solid;box-shadow:0px 0px 20px 2px black inset;transform:rotate(180deg);}
+.digitalDate{background: #274472;display:block;width: 50px;height: 15px;margin:auto;position:absolute;z-index:1;top:47%;
+left: calc(50% - 25px);
+color:#C3E0E5 ;text-align:center;vertical-align:center;transform:rotate(180deg);padding: 2px;}
+.hourArm, .minuteArm, .secondArm{background: black;position: absolute;border-radius:30%;transform-origin: center 0;   }
+.hourArm{background:black;width:5px;height: 7vh;left:50%;top:50%;}
+.minuteArm{background: black;width:3px;height: 10vh;left:50%;top:50%;}
+.secondArm{background:black;width:2px;height: 12vh;left:50%;top:50%;}
+.small{font-size:8px;}
+
+
+.one{height: 5px;width: 2px;background: black;transform:rotate(180deg);left: 90%;bottom:10%;position:relative;background:black;}
+ .two{height: 10px;width: 2px;position:relative;transform:rotate(6deg)}
+ .three{position:relative;bottom: calc(50% - 10px);left: 5%;color: #274472;font-size:1.5rem;transform:rotate(180deg);width: 5px;z-index:1}
+ .four{height: 5px;width: 2px;transform:rotate(12deg)}
+ .twelve{position:relative;top: 2px;
+ left:calc(50% + 5px);color:#274472 ;width: 5px;font-size:1.5rem;transform:rotate(180deg);z-index:1;}
+ .six{position:relative;bottom:87%;left:calc(50% - 				12px);color: #274472;font-size:1.5rem;transform:rotate(180deg);width: 5px;z-index:1;}
+	.nine{position:relative;bottom: calc(50% - 10px);left: 85%;color: #274472;font-size:1.5rem;transform:rotate(180deg);width: 5px;z-index:1}		
+#hid{display:block}
